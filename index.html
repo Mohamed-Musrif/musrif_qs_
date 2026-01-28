@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliyar M. Musrif | Civil & MEP Quantity Surveyor | Precision Take-Offs & BOQ Services</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional Civil & MEP Quantity Surveyor. Specializing in precise quantity take-offs, BOQ preparation, and cost estimation for contractors, consultants, and developers.">
+    <meta name="keywords" content="Quantity Surveyor, Civil Take-Offs, MEP Take-Offs, BOQ Preparation, Cost Estimation, Construction Measurement, POMI, SMM7, AutoCAD, PlanSwift">
+    <meta name="author" content="Aliyar Mohamed Musrif">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <!-- Animated Logo from old design -->
+                <a class="logo" href="#home">
+                    <div class="qs-container">
+                        <div class="qs-badge">QS</div>
+                        <div class="construction-ring"></div>
+                        <div class="ruler-element"></div>
+                        <div class="hammer-element"></div>
+                    </div>
+                    <div class="logo-text">
+                        <div class="name">ALIYAR M. MUSRIF</div>
+                        <div class="title-container">
+                            <div class="title-line"></div>
+                            <div class="title">Quantity Surveyor</div>
+                            <div class="title-line"></div>
+                        </div>
+                    </div>
+                </a>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with 3D Animation -->
+    <section class="hero" id="home">
+        <div class="floating-element floating-element-1"></div>
+        <div class="floating-element floating-element-2"></div>
+        
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <h1>Precision Quantity Take-Offs & BOQ Preparation</h1>
+                <div class="tagline">Civil & MEP Measurement Specialist | Excel-Based Deliverables | Fast Turnaround</div>
+                <p>I help contractors, consultants, and developers transform construction drawings into accurate, actionable quantities and BOQs. With expertise in both civil and MEP measurement, I deliver the precise data you need for tendering, cost control, and project success.</p>
+                
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Get a Free Quote</a>
+                    <a href="#projects" class="btn btn-outline">View Sample Work</a>
+                </div>
+            </div>
+
+            <!-- 3D Construction Animation Container -->
+            <div class="hero-3d-container">
+                <div id="tool-container"></div>
+                <div class="construction-overlay">
+                    <div class="stage-indicator">Construction Stage: <span id="stage-text">Foundation</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>Specialized Services</h2>
+                <p>Comprehensive quantity surveying services tailored for construction professionals</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate-slide-up" style="animation-delay: 0.1s;">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Civil Quantity Take-Offs</h3>
+                    <p>Detailed measurement of concrete, reinforcement, formwork, masonry, finishes, and external works in accordance with POMI/SMM7 standards.</p>
+                    <div class="precision-meter">
+                        <div class="meter-header">
+                            <span class="meter-label">Accuracy Level</span>
+                            <span class="meter-value">98%</span>
+                        </div>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 98%"></div>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>Concrete volume calculations</li>
+                        <li>Reinforcement bar scheduling</li>
+                        <li>Formwork surface areas</li>
+                        <li>Finishes measurement</li>
+                        <li>External works quantification</li>
+                    </ul>
+                    <div class="construction-badge">
+                        <i class="fas fa-hard-hat"></i>
+                        <span>POMI Compliant</span>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-slide-up" style="animation-delay: 0.2s;">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>MEP Quantity Take-Offs</h3>
+                    <p>Precise measurement of HVAC, plumbing & drainage, electrical, and fire fighting systems from MEP drawings and specifications.</p>
+                    <div class="precision-meter">
+                        <div class="meter-header">
+                            <span class="meter-label">Accuracy Level</span>
+                            <span class="meter-value">95%</span>
+                        </div>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>HVAC ducting & equipment</li>
+                        <li>Plumbing pipework & fixtures</li>
+                        <li>Electrical containment systems</li>
+                        <li>Fire fighting components</li>
+                        <li>Cable tray & conduit runs</li>
+                    </ul>
+                    <div class="construction-badge">
+                        <i class="fas fa-bolt"></i>
+                        <span>MEP Specialist</span>
+                    </div>
+                </div>
+                
+                <div class="service-card animate-slide-up" style="animation-delay: 0.3s;">
+                    <div class="service-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <h3>BOQ Preparation</h3>
+                    <p>Professional, editable Excel-based Bills of Quantities formatted to your requirements, ready for pricing and contract documentation.</p>
+                    <div class="precision-meter">
+                        <div class="meter-header">
+                            <span class="meter-label">Excel Expertise</span>
+                            <span class="meter-value">99%</span>
+                        </div>
+                        <div class="meter-bar">
+                            <div class="meter-fill" style="width: 99%"></div>
+                        </div>
+                    </div>
+                    <ul class="service-features">
+                        <li>Clean Excel formatting</li>
+                        <li>Item descriptions & units</li>
+                        <li>Rate columns for pricing</li>
+                        <li>Summary sheets</li>
+                        <li>Client-branded templates</li>
+                    </ul>
+                    <div class="construction-badge">
+                        <i class="fas fa-file-contract"></i>
+                        <span>Tender Ready</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section class="workflow">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>How I Work</h2>
+                <p>A streamlined process designed for accuracy and efficiency</p>
+            </div>
+            
+            <div class="workflow-steps">
+                <div class="step animate-slide-left">
+                    <div class="step-number">1</div>
+                    <h4>Submit Drawings</h4>
+                    <p>Email your architectural, structural, or MEP drawings in PDF/DWG format with project specifications.</p>
+                    <div class="construction-badge">
+                        <i class="fas fa-upload"></i>
+                        <span>24h Response</span>
+                    </div>
+                </div>
+                
+                <div class="step animate-slide-up">
+                    <div class="step-number">2</div>
+                    <h4>Review & Quote</h4>
+                    <p>I'll review the scope and provide a fixed-price quote with delivery timeline within 24 hours.</p>
+                    <div class="construction-badge">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Fixed Price</span>
+                    </div>
+                </div>
+                
+                <div class="step animate-slide-up">
+                    <div class="step-number">3</div>
+                    <h4>Measurement & Take-Off</h4>
+                    <p>Using AutoCAD, PlanSwift, and manual methods, I'll extract precise quantities per standards.</p>
+                    <div class="construction-badge">
+                        <i class="fas fa-ruler-combined"></i>
+                        <span>POMI/SMM7</span>
+                    </div>
+                </div>
+                
+                <div class="step animate-slide-right">
+                    <div class="step-number">4</div>
+                    <h4>Deliver BOQ</h4>
+                    <p>Receive a professionally formatted Excel BOQ with clear quantities, ready for your pricing.</p>
+                    <div class="construction-badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Ready to Use</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>Project Portfolio</h2>
+                <p>Recent quantity take-off and BOQ projects delivered for clients</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="civil">Civil</button>
+                <button class="filter-btn" data-filter="mep">MEP</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card animate-slide-up" data-category="civil residential">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Villa Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Luxury Villa Complex</h3>
+                        <p>Complete quantity take-off for 12 luxury villas including substructure, superstructure, finishes, and external works. Delivered within 5 days.</p>
+                        <div class="precision-meter">
+                            <div class="meter-header">
+                                <span class="meter-label">Project Scale</span>
+                                <span class="meter-value">45,000 sq.ft.</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Civil</span>
+                            <span class="project-tag">Residential</span>
+                            <span class="project-tag">BOQ</span>
+                            <span class="project-tag">Villas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-slide-up" data-category="mep commercial">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80" alt="MEP Systems">
+                    </div>
+                    <div class="project-content">
+                        <h3>Commercial Building MEP</h3>
+                        <p>MEP quantity take-off for 8-story commercial building including HVAC, plumbing, electrical, and fire fighting systems. 350+ measured items.</p>
+                        <div class="precision-meter">
+                            <div class="meter-header">
+                                <span class="meter-label">Items Measured</span>
+                                <span class="meter-value">350+</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">MEP</span>
+                            <span class="project-tag">HVAC</span>
+                            <span class="project-tag">Electrical</span>
+                            <span class="project-tag">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-slide-up" data-category="civil">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Infrastructure Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Infrastructure Development</h3>
+                        <p>Roadworks and utility measurement for 2km infrastructure project including earthworks, drainage, and paving quantities.</p>
+                        <div class="precision-meter">
+                            <div class="meter-header">
+                                <span class="meter-label">Project Length</span>
+                                <span class="meter-value">2 km</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Civil</span>
+                            <span class="project-tag">Infrastructure</span>
+                            <span class="project-tag">Earthworks</span>
+                            <span class="project-tag">Roadworks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-slide-up" data-category="mep residential">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1487956382158-bb926046304a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Apartment Building">
+                    </div>
+                    <div class="project-content">
+                        <h3>High-Rise Apartments</h3>
+                        <p>Complete MEP take-off for 15-story residential tower including all building services systems and coordination drawings.</p>
+                        <div class="precision-meter">
+                            <div class="meter-header">
+                                <span class="meter-label">Building Height</span>
+                                <span class="meter-value">15 Floors</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">MEP</span>
+                            <span class="project-tag">Residential</span>
+                            <span class="project-tag">High-Rise</span>
+                            <span class="project-tag">Apartments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>About Me</h2>
+                <p>Dedicated to precision in construction measurement</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text animate-slide-left">
+                    <h3>Aliyar Mohamed Musrif</h3>
+                    <p>I specialize in transforming construction drawings into accurate, actionable quantities and BOQs that form the foundation of successful projects.</p>
+                    
+                    <p>With expertise spanning both <span class="highlight">civil and MEP measurement</span>, I help contractors, consultants, and developers streamline their tendering, cost control, and project delivery processes.</p>
+                    
+                    <p>My approach combines traditional measurement principles with modern digital tools to deliver <span class="highlight">precise, reliable outputs</span> that save you time, reduce errors, and support informed decision-making.</p>
+                    
+                    <p>I'm committed to providing clear communication, on-time delivery, and deliverables that integrate seamlessly into your existing workflows.</p>
+                    
+                    <div class="construction-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>POMI Certified Measurement</span>
+                    </div>
+                    
+                    <div class="construction-badge">
+                        <i class="fas fa-clock"></i>
+                        <span>Fast Turnaround Guarantee</span>
+                    </div>
+                    
+                    <div class="construction-badge">
+                        <i class="fas fa-check-double"></i>
+                        <span>Quality Assurance Process</span>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">250+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24-48h</div>
+                            <div class="stat-label">Typical Response Time</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image animate-slide-right">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Construction Measurement">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>Tools & Software</h2>
+                <p>Professional tools for precise measurement and documentation</p>
+            </div>
+            
+            <div class="tools-grid">
+                <div class="tool-item animate-slide-up">
+                    <div class="tool-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="tool-name">Excel</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="98">
+                            <div class="skill-meter-label">98%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-item animate-slide-up" style="animation-delay: 0.1s;">
+                    <div class="tool-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <div class="tool-name">AutoCAD</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="95">
+                            <div class="skill-meter-label">95%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-item animate-slide-up" style="animation-delay: 0.2s;">
+                    <div class="tool-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <div class="tool-name">PlanSwift</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="90">
+                            <div class="skill-meter-label">90%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-item animate-slide-up" style="animation-delay: 0.3s;">
+                    <div class="tool-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="tool-name">Revit</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="85">
+                            <div class="skill-meter-label">85%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tool-item animate-slide-up" style="animation-delay: 0.4s;">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="tool-name">Bluebeam</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="88">
+                            <div class="skill-meter-label">88%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-item animate-slide-up" style="animation-delay: 0.5s;">
+                    <div class="tool-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="tool-name">CostX</div>
+                    <div class="tool-skill">
+                        <div class="skill-meter" data-percent="80">
+                            <div class="skill-meter-label">80%</div>
+                            <div class="skill-meter-track"><div class="skill-meter-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>Client Testimonials</h2>
+                <p>What clients say about working with me</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial animate-slide-up">
+                    <div class="testimonial-text">
+                        "Aliyar delivered precise quantity take-offs for our villa project ahead of schedule. His attention to detail and clear Excel formatting saved us significant time during tender preparation. The accuracy was exceptional!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RC</div>
+                        <div class="author-info">
+                            <h4>Robert Chen</h4>
+                            <p>Project Manager, Dubai Contracting Co.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial animate-slide-up" style="display: none;">
+                    <div class="testimonial-text">
+                        "The MEP take-off for our commercial project was exceptionally detailed. Aliyar caught several discrepancies in the drawings that saved us from costly errors during construction. Highly recommended!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Mitchell</h4>
+                            <p>Consultant, Engineering Solutions Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial animate-slide-up" style="display: none;">
+                    <div class="testimonial-text">
+                        "Working with Aliyar was a pleasure. His BOQ preparation was thorough, well-organized, and exactly what we needed for our tender submission. Will definitely work with him again on future projects."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Ahmed Khan</h4>
+                            <p>Director, Coastal Developers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container animate-fade-in">
+            <h2>Ready to Get Accurate Quantities?</h2>
+            <p>Send your drawings today and receive a fixed-price quote within 24 hours. Let's transform your project documents into precise, actionable data.</p>
+            <a href="#contact" class="btn">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header animate-slide-up">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your quantity take-off and BOQ requirements</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info animate-slide-left">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:musrif.aliyar@gmail.com">musrif.aliyar@gmail.com</a>
+                            <p>Typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone / WhatsApp</h4>
+                            <a href="tel:+94750750764">+94 75 075 0764</a>
+                            <p>Available for project discussions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/mohamed-musrif-qs" target="_blank">linkedin.com/in/mohamed-musrif-qs</a>
+                            <p>Connect for professional updates</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Service Areas</h4>
+                            <p>Remote Services Worldwide</p>
+                            <p>Specializing in UAE/Gulf Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="mailto:musrif.aliyar@gmail.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamed-musrif-qs" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/94750750764" target="_blank" class="social-link" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Download CV">
+                            <i class="fas fa-file-download"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-slide-right">
+                    <h3>Project Inquiry Form</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name / Company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" placeholder="Project Type (e.g., Villa, Commercial Building)" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="serviceType" required>
+                                <option value="" disabled selected>Select Service Required</option>
+                                <option value="civil">Civil Quantity Take-Off</option>
+                                <option value="mep">MEP Quantity Take-Off</option>
+                                <option value="boq">BOQ Preparation</option>
+                                <option value="both">Civil & MEP Take-Off</option>
+                                <option value="other">Other Quantity Surveying Service</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea placeholder="Project details, requirements, or specific questions..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="construction-badge">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Confidentiality Guaranteed</span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="width: 100%;">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <!-- Footer Logo -->
+                    <a class="footer-logo" href="#home">
+                        <div class="qs-container-small">
+                            <div class="qs-badge">QS</div>
+                        </div>
+                        <span class="footer-logo-text">AMM Quantity Surveyor</span>
+                    </a>
+                    <p>Specializing in precise quantity take-offs and BOQ preparation for civil and MEP construction projects. Delivering accuracy you can build on.</p>
+                    <div class="construction-badge">
+                        <i class="fas fa-award"></i>
+                        <span>Professional QS Services</span>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Civil Take-Offs</a></li>
+                        <li><a href="#services">MEP Take-Offs</a></li>
+                        <li><a href="#services">BOQ Preparation</a></li>
+                        <li><a href="#services">Cost Estimation</a></li>
+                        <li><a href="#services">Measurement Standards</a></li>
+                        <li><a href="#services">Digital Take-Offs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> musrif.aliyar@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +94 75 075 0764</p>
+                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/mohamed-musrif-qs</p>
+                    <p><i class="fas fa-globe"></i> Available Worldwide</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Aliyar Mohamed Musrif - Professional Quantity Surveying Services. All rights reserved.</p>
+                <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">Specializing in POMI, SMM7, and NRM measurement standards for civil and MEP projects.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+    <!-- 3D Animation Script -->
+    <script src="3d-animation.js"></script>
+    <!-- Logo Effects Script -->
+    <script>
+        // Logo interactive effects from old portfolio
+        function initLogoEffects() {
+            const logo = document.querySelector('.logo');
+            if (!logo) return;
+            
+            // Pause/play ring animation on hover
+            logo.addEventListener('mouseenter', function() {
+                const ring = this.querySelector('.construction-ring');
+                if (ring) {
+                    ring.style.animationPlayState = 'running';
+                }
+            });
+            
+            logo.addEventListener('mouseleave', function() {
+                const ring = this.querySelector('.construction-ring');
+                if (ring) {
+                    ring.style.animationPlayState = 'paused';
+                }
+            });
+            
+            // Add click effect
+            logo.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Ripple effect on QS badge
+                const qsBadge = this.querySelector('.qs-badge');
+                if (qsBadge) {
+                    qsBadge.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        qsBadge.style.transform = 'scale(1)';
+                    }, 150);
+                }
+                
+                // Smooth scroll to top
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+        
+        // Initialize logo effects
+        document.addEventListener('DOMContentLoaded', function() {
+            initLogoEffects();
+        });
+    </script>
+    
+    <!-- Hidden SEO Keywords (for ATS) -->
+    <div style="position: absolute; left: -9999px; top: -9999px; height: 0; overflow: hidden;">
+        Quantity Surveyor, Civil Take-Offs, MEP Take-Offs, BOQ Preparation, Cost Estimation, Construction Measurement,
+        POMI, SMM7, NRM, AutoCAD, PlanSwift, Revit, Excel BOQ, Quantity Take-Off, Bill of Quantities,
+        Pre-Contract, Post-Contract, Interim Valuations, Variation Measurement, Final Accounts,
+        Construction Cost Control, Tender Documentation, Measurement Standards, Digital Take-Off,
+        HVAC Measurement, Plumbing Take-Off, Electrical Take-Off, Fire Fighting Measurement,
+        Residential Projects, Commercial Buildings, Infrastructure, Villas, High-Rise,
+        Construction Drawings, CAD Measurement, Construction Costing, Rate Analysis,
+        Construction Documentation, Project Cost Control, Construction Tenders,
+        Construction Measurement Specialist, Professional Quantity Surveyor
+    </div>
+</body>
+</html>
