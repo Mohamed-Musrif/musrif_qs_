@@ -1796,39 +1796,10 @@ header nav {
     50%{ opacity: 1; transform: scaleX(1.35); }
 }
 
-
-
-/* ===== PROOF / TRUST SECTION ===== */
-.proof{
-    background: var(--white);
-}
-.proof .about-stats{
-    justify-content: center;
-    gap: 3rem;
-}
-.proof .stat{
-    background: var(--light);
-    padding: 2rem 2.5rem;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    min-width: 220px;
-}
-.proof .stat-number{
-    font-size: 2.6rem;
-}
-.proof .testimonial{
-    margin-top: 2rem;
-}
-
-/* ===== CASE STUDIES ENHANCEMENTS ===== */
-#case-studies .project-card{
-    border-top: 4px solid var(--accent);
-}
-#case-studies .project-content h3{
-    margin-bottom: 0.6rem;
-}
-#case-studies .project-content p{
+/* Tools description (supports tender-ready tool labels) */
+.tool-desc{
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+    line-height: 1.25;
     color: var(--text-light);
-    font-size: 0.95rem;
 }
-
