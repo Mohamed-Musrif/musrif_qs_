@@ -1796,10 +1796,23 @@ header nav {
     50%{ opacity: 1; transform: scaleX(1.35); }
 }
 
-/* Tools description (supports tender-ready tool labels) */
-.tool-desc{
-    margin-top: 0.35rem;
-    font-size: 0.85rem;
-    line-height: 1.25;
+
+
+/* ===== TOOLS: metric + downloads ===== */
+.tools-metric{
+    margin-top: 0.75rem;
+    font-size: 1rem;
     color: var(--text-light);
+}
+.tools-cta{
+    margin-top: 2.5rem;
+    display: grid;
+    gap: 1.1rem;
+    justify-items: center;
+}
+.tools-downloads{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
